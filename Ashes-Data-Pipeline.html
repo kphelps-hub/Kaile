@@ -28,13 +28,45 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Ashes Data Pipeline</h2>
+							<h2>Ashes: Reborn Data Pipeline</h2>
 						</header>
-						<p>This project uses R to pull data automatically from googlesheets to track and records and standings for online matches.
-                            Full code to find pull data and load into AWS is found in <a href="https://github.com/kphelps-hub/awakenedstate" target="_blank">git-hub</a>
-                            Final data is available in <a href="https://docs.google.com/spreadsheets/d/1Xfs0NgxKigrkt61_IVn0sByYpCV85d5dQQntzcqdY5o/edit?usp=sharing" target="_blank">googlesheets</a>
-                        </p>
+						
+						<p>Ashes: Reborn is a competitive card game created by <a href="https://www.plaidhatgames.com/board-games/ashes-rise-phoenixborn/" target="_blank">Plaid Hat Games</a>.
+							Online tournaments were regularly organized and run online. This project uses R to pull data automatically from googlesheets to track standings and statistics for the league.
+							Data is loaded into an AWS server and shared with the community in <a href="https://docs.google.com/spreadsheets/d/1Xfs0NgxKigrkt61_IVn0sByYpCV85d5dQQntzcqdY5o/edit?usp=sharing" target="_blank">googlesheets</a>.
+						</p>
+						<header class="major">
+							<h3>Project Steps</h3>
+						</header>
+						<ol>
+							<li>Deck and game information is compiled using <a href="https://github.com/kphelps-hub/ashes-data/blob/main/ReadGameLogs.R" target="_blank">R script</a> from self-reported googlesheets.</li>
+							<li>Data is summarized and saved into <a href="https://github.com/kphelps-hub/ashes-data/blob/main/Create%20Summaries%20Script.R" target="_blank">AWS</a>.</li>
+							<li>A copy of the data is put into a shared pivot table in <a href="https://docs.google.com/spreadsheets/d/1Xfs0NgxKigrkt61_IVn0sByYpCV85d5dQQntzcqdY5o/edit?usp=sharing" target="_blank">googlesheets</a>. The shared sheet shows commonly used cards and heroes in addition to player statistics.</li>
+						</ol>
 					</section>
+					
+				<!-- Three -->
+				<section id="three">
+					<h2>Contact Information</h2>
+					<div class="row">
+						<div class="col-4 col-12-small">
+							<ul class="labeled-icons">
+								<li>
+									<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
+									<a href="https://www.linkedin.com/in/kailephelps/" target="_blank">Kaile Phelps</a>
+								</li>
+								<li>
+									<h3 class="icon brands fa-github"><span class="label">Github</span></h3>
+									<a href="https://github.com/kphelps-hub" target="_blank">kphelps-hub</a>
+								</li>
+								<li>
+									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+									<a href="mailto: kaile.phelps@gmail.com">kaile.phelps@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
 			</div>
 
 		<!-- Footer -->

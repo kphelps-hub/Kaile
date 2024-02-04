@@ -30,36 +30,81 @@
 					<header class="major">
 						<h2>NBA Lineup Analysis</h2>
 					</header>
-					<p>This project seek to provide tools for looking at how teams lineups change
-						between the Playoffs and the Regular Season. I particularly focused on looking at
-						whether teams preferred to play smaller during the playoffs and how that trend has changed overtime.</p>
+					<p>This project seeks to provide tools for looking at how teams lineups change
+						between the Playoffs and the Regular Season. I focused on
+						whether teams preferred to play smaller lineups during the playoffs and how that trend has changed overtime.</p>
 					<header class="major">
-						<h3>Project Details</h3>
+						<h3>Project Steps</h3>
 					</header>
-					<p>This project pulled data from <a href=pbpstats.com>pbpstats.com</a>.
-					I used Python to <a href="https://github.com/kphelps-hub/nbalineup/blob/main/Pull%20Lineup%20Data.py">pull the data</a> and do the initial <a href="https://github.com/kphelps-hub/nbalineup/blob/main/NBA%20Lineup%20Data%20Merge.py">cleaning</a> steps.
-					I then proceeded to visualize the data in 4 different worksheets in Tableau.
 					<ol>
-						<li><a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedPctOverTime" target="_blank">Undersized Pct Over Time:</a> a visualization of how teams played undersized players over time</li>
-						<li><a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedScatterPlot" target="_blank">Undersized Scatter Plot:</a> an interactive visualization to see teams that played significantly differently in the regular season vs the playoffs</li>
-						<li><a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedPlayoffRegularSeasonRatio" target="_blank">Undersized Playoff to Regular Season Ratio:</a> a visualization broken down by position comparing the frequency of playing undersized in the playoffs</li>
-						<li><a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/TeamLineupDistribution" target="_blank">Team Lineup Distribution:</a> a tool to look at how individual teams played players at different positions</li>
+						<li>All data for this project was pulled data from <a href="https://www.pbpstats.com" target="_blank">pbpstats.com</a> using a <a href="https://github.com/kphelps-hub/nbalineup/blob/main/Pull%20Lineup%20Data.py">Python script</a>.</li>
+						<li>Output was compiled and merged in <a href="https://github.com/kphelps-hub/nbalineup/blob/main/NBA%20Lineup%20Data%20Merge.py" target="_blank">Python</a>.</li>
+						<li>Data was loaded into a database and cleaned and transformed in <a href="https://github.com/kphelps-hub/nbalineup/blob/main/SQL%20Analysis.sql" target="_blank">SQLite</a>.</li>
+						<li>Visualizations were created from resulting queries using <a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedPctOverTime" target ="_blank">Tableau</a>.</li>
 					</ol>
+					<header class="major">
+						<h3>Results</h3>
+					</header>
+					<div class="row">
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedPctOverTime" target ="_blank" class="image fit thumb"><img src="images/Undersized Pct Over Time.png" alt="" /></a>
+							<h3>Undersized Pct Over Time</h3>
+							<p>A visualization of how often teams played undersized players over time.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedPlayoffRegularSeasonRatio" target="_blank" class="image fit thumb"><img src="images/Undersized Playoff_Regular Season Ratio.png" alt="" /></a>
+							<h3>Undersized Playoff to Regular Season Ratio</h3>
+							<p>A visualization broken down by position comparing the frequency of playing undersized in the playoffs</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/UndersizedScatterPlot" target ="_blank" class="image fit thumb"><img src="images/Undersized Scatter Plot.png" alt="" /></a>
+							<h3>Undersized Scatter Plot</h3>
+							<p>An interactive visualization to identify teams that played significantly differently in the regular season vs the playoffs</p>
+						</article>
+						
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="https://public.tableau.com/app/profile/kaile.phelps/viz/NBALineupAnalysis_17063670425110/TeamLineupDistribution" target="_blank" class="image fit thumb"><img src="images/Team Lineup Distribution.png" alt="" /></a>
+							<h3>Team Lineup Distribution</h3>
+							<p>A tool to look at how individual teams used players at different positions</p>
+						</article>
+					</div>
 					</p>
 				</section>
+			<!-- Three -->
+			<section id="three">
+				<h2>Contact Information</h2>
+				<div class="row">
+					<div class="col-4 col-12-small">
+						<ul class="labeled-icons">
+							<li>
+								<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
+								<a href="https://www.linkedin.com/in/kailephelps/" target="_blank">Kaile Phelps</a>
+							</li>
+							<li>
+								<h3 class="icon brands fa-github"><span class="label">Github</span></h3>
+								<a href="https://github.com/kphelps-hub" target="_blank">kphelps-hub</a>
+							</li>
+							<li>
+								<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+								<a href="mailto: kaile.phelps@gmail.com">kaile.phelps@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/kailephelps/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/kphelps-hub" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto: kaile.phelps@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					
-				</div>
-			</footer>
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/kailephelps/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/kphelps-hub" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto: kaile.phelps@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				
+			</div>
+		</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
